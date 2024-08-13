@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tupian1{
+	width:790px;
+	heigth:304px;
+	float:right; overflow:hidden;
+	border:1px solid #000;
+}
+.buju1{
+	height:304px;
+	width:500px;
+	float:left;
+	position:relative;
+	left:5px;
+	border:1px solid #000;
+}
+
+
+.a2{width:500px;
+	height:46px;
+	display:inline-block;
+	line-height:40px;
+	background-color:rgba(204,204,204,0.8);
+	color:#09F;
+	overflow:hidden;
+	font-size:15px;
+	font-weight:bold;}
+.link2:link,.link2:visited{
+	width:500px;
+	height:49px;
+	background-color:rgba(233,233,233,0.8);
+	color:#09F;}
+.link2:hover,.link2:active{
+	width:500px;
+	height:49px;
+	background-color:#0CF;
+	color:#CCC;
+	font-size:19px;
+}
+
+
+
+.menua{
+	text-decoration:none;
+	width:792px;
+	height:60px;
+	border:1px solid #000;
+	background-color:rgba(0,51,255,0.7);
+	color:#E6E6E6;
+	float:left;
+	position:absolute;
+	left:0px;
+	}
+
+.a3{
+	
+	width:198px;
+	height:45px;
+	text-align:center;
+	padding-top:15px;
+	background-color:rgba(0,51,255,0.7);
+	float:left;
+	
+	
+	}
+.link3:link,.link3:visited{
+	width:198px;
+	height:45px;
+	background-color:rgba(0,51,255,0.7);
+	text-decoration:none;
+	color:rgba(212,212,212,0.6);
+	font-size:18px;
+}
+.link3:hover,.link3:active{
+	width:198px;
+	height:45px;
+	background-color:rgba(212,212,212,0.6);
+	text-decoration:none;
+	color:rgba(0,51,255,0.7);
+	font-size:18px;
+}
+
+
+.menub{
+	width:792px;
+	height:225px;
+	border:1px solid #000;
+	float:right;
+	position:absolute;
+	top:65px;
+	background:rgba(212,212,212,0.4);
+	}
+.ul1{
+		line-height:45px;
+		
+		}
+.li{
+	  height:40px;
+		  width:793px;
+		border-bottom:1px dotted #B3B3B3;
+		}
+
+
+
+
+
+/*图片滚动部分*/
+ol,img{
+		margin:0; padding:0; border:0; list-style:none;
+	}
+	/*banner*/
+	.banner{
+		width:790px;
+	heigth:304px;
+	float:right; overflow:hidden;
+	border:1px solid #000;
+	position:relative;
+	}
+	.banner .banner_pic .pic{display:none;}
+	.banner .banner_pic .current{display:block;}
+	.banner ol{
+		position:absolute; left:350px; bottom:6%;/*距离底部的位置*/
+	}
+	.banner ol .but{
+		float:left; 
+		width:10px;                         height:10px;
+		border:1px solid #06f;			border-radius:50px;
+		margin-right:12px;
+		line-height:22px;
+		text-align:center;
+		color:#06F;     background:#fff;
+		font-size:16px;   font-weight:bold; 
+		opacity:0.5;
+	
+	}
+	.banner ol .current{
+		color:#fff;  background:#06f;
+		float:left;
+		width:10px;
+		height:10px;
+		border:1px solid #06f;
+		border-radius:50%;
+		margin-right:12px;
+		text-align:center;
+		line-height:22px;
+		font-size:16px;
+		font-weight:bold;
+	}
+	.banner ol li{cursor:pointer;}
+	
+	
+	
+	
+/*div class="menua">
+                 	<ul>
+                    	<li><a class="link3 a3" href="#">时政要闻</a></li>
+                        <li><a class="link3 a3" href="#">科技部工作</a></li>
+                        <li><a class="link3 a3" href="#">发布会</a></li>
+                        <li><a class="link3 a3" href="#">媒体聚焦</a></li>
+                    </ul>
+              </div>
+                 	<div class="menub" id="one">
+                 		<ul class="ul1">
+                    		<li class="li"><a>习近平同俄罗斯总统普京分别向第三届中俄能源商务论坛致贺信</a></li>
+                        	<li class="li"><a>习近平同以色列总统赫尔佐格通电话</a></li>
+                        	<li class="li"><a>科技部副部长张广军出席第九届金砖国家科技创新部长级会议</a></li>
+                        	<li class="li"><a>国务院关于“十四五”公共服务规划</a></li>
+                        	<li class="li"><a>孙春兰与切尔内申科出席中俄科技创新年闭幕式</a></li>
+                    	</ul>
+                	</div>
+                    <div class="menub" id="two">
+                 		<ul class="ul1">
+                    		<li class="li"><a>王志刚部长出席第十一届中意创新合作周线上开幕式并与意大利大学与科研部部长举行视频会晤</a></li>
+                        	<li class="li"><a>科技部召开部党组理论学习中心组专题学习会暨部系统党员干部学习贯彻党的十九届六中全会精神宣讲报告会</a></li>
+                        	<li class="li"><a>中泰科技扶贫政策与经验视频交流会成功举办</a></li>
+                        	<li class="li"><a>“一带一路”东南亚国家农业科技（绿色水稻）专业人才研修班在合肥成功举办</a></li>
+                        	<li class="li"><a>平台中心组织召开国家生物种质与实验材料资源库专项服务行动工作交流会</a></li>
+                    	</ul>
+                	</div>*/
+					
+/*ul{margin:0; padding:0; border:0; list-style:none;}
+.menua{
+	width:793px;
+	height:285px;
+	border:1px solid #000;
+	float:right;
+	position:absolute;
+	top:542px;
+	left:617px;
+}
+.menua ul li{float:left;
+	cursor:pointer;}
+.menua ul .current1{
+	width:198px;
+	height:45px;
+	text-align:center;
+	padding-top:15px;
+	background-color:rgba(212,212,212,0.6);
+	text-decoration:none;
+	color:rgba(0,51,255,0.7);
+	font-size:18px;
+	
+}
+.menua ul .but1{
+	width:198px;
+	height:45px;
+	text-align:center;
+	padding-top:15px;
+	background-color:rgba(0,51,255,0.7);
+	text-decoration:none;
+	color:rgba(212,212,212,0.6);
+	font-size:18px;
+	
+}
+.menua .menua_pic1 .current1{display:block;}
+.menua .menua_pic1 .pic1{display:none;}*/
+
+.hezi4{
+	width:500px;
+	height:285px;
+	border:1px solid #000;
+	float:left;
+	position:absolute;
+	top:540px;
+	
+}
+.div1{
+	width:793px;
+	height:285px;
+	border:1px solid #000;
+	float:left;
+	position:absolute;
+	top:535px; left:617px;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

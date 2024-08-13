@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.heziz{
+	width:1000px;
+	height:600px;
+	border:1px solid #000;
+	font-size:24px;
+	background:rgba(255,255,255,0.6);
+	margin:0 auto;
+}
+.one{
+	width:500px;
+	height:50px;
+	text-align:center;
+	padding-top:20px;
+	float:left;
+	position:absolute;
+	left:500px;
+	font-size:36px;
+	color:#06C;
+	font-weight:bold;
+	
+}
+
+.two{
+	width:950px;
+	height:550px;
+	
+	float:left;
+	position:absolute;
+	top:200px;
+	padding:30px;
+	white-space:pre;
+}
+

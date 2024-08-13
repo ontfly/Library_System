@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background:url(../image/background.png);
+	background-size:cover;
+	position: relative;
+}
+
+.hezi1{
+	background:#FFFFFF;
+	
+	height:25px;
+	width:1940px;
+	box-sizing:border-box;
+	margin-left:0px;
+	padding-left:0px;
+	padding-top:4px;
+	padding-bottom:6px;
+	
+}
+.span1
+{	display:inline-block;
+	height:11px;
+	font-size:8px;
+	font-family:"微软雅黑";
+	text-align:center;
+	
+}/**/
+.hezi2{
+	height:130px;
+	width:100%;
+	background:url(../image/%E5%9B%BD%E5%BE%BD.png) no-repeat;
+	padding-left:300px;
+	margin-bottom:1px;
+	
+}
+.fen1{width:600px;
+	height:70px;
+	float: top;
+	white-space:pre;
+}
+.p2{
+	float: left;
+	padding-top: 20px;
+	padding-left:200px;
+	font-family: "Corbel";
+	font-size:20px;
+	color: #c4e3f3;}
+.p1{
+	float:left;
+	margin-top:-65px;
+	margin-left:40px;
+	font-family: "华文行楷";
+	font-size:35px;
+	color: #c4e3f3;}
+/**/
+.daohang{
+	width:100%;
+	height:40px;
+	background: #2376ff;
+	margin:0 auto;
+	float: left;
+	padding-left:150px;
+	}
+.div1{
+	float:left;
+	position:relative;
+	overflow:hidden;
+	margin-right:auto;
+}
+
+.a1{
+	height:40px;
+	width:100px;
+	display:inline-block;  /*将超链接设置为了盒子，好像可以用span的display:inline-block;*//*也可以使用盒子浮动进行定位*/
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-right:100px;
+	vertical-align:middle;
+	text-align:center;
+	color:#fff;
+
+}
+.hezi3{
+	width:100%;
+	height:600px;
+	border:1px solid #000;
+	background-color:rgba(254,254,254,0.4)
+	
+	
+	
+}
+.hezi31{
+	height:800px;
+	width:1400px;
+	background-color:#FFF;
+	margin:0 auto;
+	border:1px solid #000;
+}
+.link1:link,.link1:visited{
+	
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.link1:hover,.link1:active{
+	height:40px;
+	width:100px;
+	background:#fff;
+	color:#36f;
+	text-decoration:none;
+	font-weight:bold;
+}
+.shengming
+{
+	width:100%;
+	height:100px;
+	padding:40px 0 20px 500px;
+	
+}
+.shengming1{
+	height:80px;
+	width:75px;
+	
+	margin-right:1px;
+	background:url(../image/%E6%94%BF%E5%85%9A%E6%9C%BA%E5%85%B31.png) no-repeat;
+	background-position:center;
+}
+.shengming2{
+	height:60px;
+	width:600px;
+	
+	color:#B3B3B3;
+	margin:-70px 0 0 80px;
+
+}
+.upload{
+	width:750px;
+	height:100%;
+	margin-left:500px;
+	background: #00BFFF;
+	text-align: center;
+}
+.total{
+	width:100%;
+	height:100%;
+	background: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
